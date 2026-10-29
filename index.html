@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Portfólio de estudante de Ciência de Dados com projetos de análise, visualização e aprendizado de máquina." name="description"/>
+<title> Gabriel Gobira | Desenvolvimento de Software</title>
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com)" rel="preconnect"/>
+<link crossorigin="" href="[fonts.gstatic.com](https://fonts.gstatic.com)" rel="preconnect"/>
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Roboto+Mono:wght@500&amp;display=swap)" rel="stylesheet"/>
+<link href="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css)" rel="stylesheet"/>
+<link href="estilo.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="cabecalho">
+<nav aria-label="Navegação principal" class="navegacao container">
+<a aria-label="Ir para o início" class="logo" href="#inicio">
+              &lt;Gabriel<span>Gobira.dev</span>&gt;
+            </a>
+<button aria-controls="menu" aria-expanded="false" aria-label="Abrir menu" class="botao-menu" id="botao-menu" type="button">
+<i aria-hidden="true" class="fa-solid fa-bars"></i>
+</button>
+<ul class="menu" id="menu">
+<li><a class="link-menu ativo" href="#inicio">Início</a></li>
+<li><a class="link-menu" href="#sobre">Sobre mim</a></li>
+<li><a class="link-menu" href="#projetos">Projetos</a></li>
+<li><a class="link-menu" href="#contato">Contato</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<!-- Seção inicial -->
+<section class="inicio" id="inicio">
+<div class="inicio-conteudo container">
+<div class="apresentacao revelar">
+<p class="etiqueta">Olá, eu sou</p>
+<h1> Gabriel Gobira </h1>
+<h2>
+                        Estudante de ADS <span>Desenvolvimento de Software</span>
+</h2>
+<p class="texto-apresentacao">
+                        
+    Sou estudante de Análise e Desenvolvimento de Sistemas
+    na UNA, com conhecimentos em Python, C#, SQL,
+    desenvolvimento de APIs, banco de dados e testes
+    automatizados. Desenvolvo projetos acadêmicos
+    aplicando boas práticas de programação, Git/GitHub
+    e trabalho em equipe.
+
+                    </p>
+<p class="objetivo">
+<strong>Objetivo profissional:</strong>
+Busco minha primeira oportunidade na área de
+Tecnologia da Informação, com foco em desenvolvimento
+de software, backend ou qualidade de software (QA).
+Quero aplicar meus conhecimentos, aprender com
+profissionais experientes e contribuir para
+soluções tecnológicas de qualidade.
+                    </p>
+<div class="acoes">
+<a class="botao botao-principal" href="#projetos">
+                            Ver projetos
+                            <i aria-hidden="true" class="fa-solid fa-arrow-right"></i>
+</a>
+</div>
+</div>
+<div class="painel-dados revelar">
+<div class="janela-codigo">
+<div class="barra-janela">
+<span class="circulo vermelho"></span>
+<span class="circulo amarelo"></span>
+<span class="circulo verde"></span>
+<span class="nome-arquivo">educonnect_api.py</span>
+</div>
+<pre><code><span class="codigo-roxo">from</span> fastapi <span class="codigo-roxo">import</span> FastAPI
+
+app = <span class="codigo-azul">FastAPI</span>()
+
+<span class="codigo-roxo">@app.get</span>(<span class="codigo-verde">"/status"</span>)
+<span class="codigo-roxo">def</span> <span class="codigo-azul">verificar_status</span>():
+    <span class="codigo-roxo">return</span> {
+        <span class="codigo-verde">"sistema"</span>: <span class="codigo-verde">"EduConnect"</span>,
+        <span class="codigo-verde">"status"</span>: <span class="codigo-verde">"online"</span>
+    }</code></pre>
+    
+</div>
+<div class="estatisticas">
+<article>
+<strong>04+</strong>
+<span>Projetos</span>
+</article>
+<article>
+<strong>05+</strong>
+<span>Tecnologias</span>
+</article>
+<article>
+<strong>100%</strong>
+<span>Curiosidade</span>
+</article>
+</div>
+</div>
+</div>
+</section>
+<!-- Seção sobre -->
+<section class="secao sobre" id="sobre">
+<div class="container">
+<div class="titulo-secao revelar">
+<h2>Sobre <span>mim</span></h2>
+<p>
+Sou estudante de Análise e Desenvolvimento de Sistemas na UNA, apaixonado por tecnologia e pela oportunidade de transformar ideias em soluções reais. Ao longo da minha formação, venho desenvolvendo projetos que envolvem programação, APIs, bancos de dados e testes automatizados, fortalecendo tanto minhas habilidades técnicas quanto minha capacidade de resolver problemas e trabalhar em equipe. Busco evoluir constantemente, enfrentar novos desafios e construir minha carreira na área de desenvolvimento de software.
+                    </p>
+</div>
+<div class="grade-sobre">
+<article class="cartao-sobre revelar">
+<div class="icone-cartao">
+<i aria-hidden="true" class="fa-solid fa-user-graduate"></i>
+</div>
+<h3>Perfil</h3>
+<p>
+                            Sou estudante do curso de 
+                            <strong> ADS </strong> e tenho interesse
+                            especial em Desenvolvimento de Software, inteligência artificial
+                            e desenvolvimento de soluções tecnológicas.
+                        </p>
+</article>
+<article class="cartao-sobre revelar">
+<div class="icone-cartao">
+<i aria-hidden="true" class="fa-solid fa-lightbulb"></i>
+</div>
+<h3>Interesses</h3>
+<p>
+
+<p>
+    Tenho interesse em desenvolvimento backend,
+    criação de APIs REST, modelagem de bancos de dados
+    e qualidade de software. Busco aprofundar meus
+    conhecimentos em Python, C# e Java, explorando
+    boas práticas de programação, testes automatizados
+    e desenvolvimento de sistemas.
+</p>
+
+                        </p>
+</article>
+<article class="cartao-sobre revelar">
+<div class="icone-cartao">
+<i aria-hidden="true" class="fa-solid fa-bullseye"></i>
+</div>
+<h3>Objetivos</h3>
+<p>
+
+<p>
+    Meu objetivo é conquistar minha primeira oportunidade
+    profissional na área de Tecnologia da Informação,
+    aplicando os conhecimentos adquiridos durante minha
+    formação e nos projetos acadêmicos. Quero contribuir
+    com soluções de qualidade, aprender com profissionais
+    experientes e evoluir continuamente como desenvolvedor.
+</p>
+
+                        </p>
+</article>
+</div>
+<div class="habilidades revelar">
+<div>
+<p class="etiqueta">Conhecimentos</p>
+<h3>Tecnologias que estou estudando</h3>
+</div>
+<ul aria-label="Tecnologias" class="lista-tecnologias">
+<li><i class="fa-brands fa-python"></i> Python</li>
+<li><i class="fa-solid fa-database"></i> C#</li>
+<li><i class="fa-solid fa-chart-column"></i> .NET</li>
+<li><i class="fa-solid fa-table"></i> Java</li>
+<li><i class="fa-solid fa-chart-line"></i> SQL</li>
+<li><i class="fa-solid fa-chart-line"></i> SQLite</li>
+<li><i class="fa-brands fa-git-alt"></i> FastAPI</li>
+<li><i class="fa-brands fa-git-alt"></i> SQLAlchemy</li>
+<li><i class="fa-brands fa-git-alt"></i> Git/GitHub</li>
+<li><i class="fa-brands fa-git-alt"></i> xUnit</li>
+<li><i class="fa-brands fa-git-alt"></i> pytest</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Seção de projetos -->
+<section class="secao projetos" id="projetos">
+<div class="container">
+<div class="titulo-secao revelar">
+<p class="etiqueta">Aplicando o conhecimento</p>
+<h2>Meus <span>projetos</span></h2>
+<p>
+    Conheça alguns dos projetos que desenvolvi durante
+    minha formação acadêmica, aplicando conhecimentos
+    em desenvolvimento de software, APIs REST,
+    bancos de dados, testes automatizados e
+    boas práticas de programação.
+</p>
+</div>
+
+<div class="grade-projetos">
+<article class="cartao-projeto revelar">
+<div class="imagem-projeto projeto-vendas">
+<i aria-hidden="true" class="fa-solid fa-chart-line"></i>
+<span>EduConnect | API Escolar</span>
+</div>
+<div class="conteudo-projeto">
+<h3>EduConnect — API Escolar</h3>
+<p>
+API de gestão escolar desenvolvida em equipe com
+Python e FastAPI. Atuei na modelagem e implementação
+do banco de dados, criando tabelas, relacionamentos,
+regras de integridade e testes automatizados
+para garantir a confiabilidade dos dados.
+                            </p>
+<ul class="tecnologias-projeto">
+<li>Python</li>
+<li>FastAPI</li>
+<li>SQLAlchemy</li>
+<li>SQLite</li>
+<li>pytest</li>
+</ul>
+<a class="link-projeto" href="https://github.com/GabrielGobira/edu-connect" rel="noopener noreferrer" target="_blank">
+                                Mais informações
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+</article>
+<article class="cartao-projeto revelar">
+<div class="imagem-projeto projeto-clientes">
+<i aria-hidden="true" class="fa-solid fa-users-viewfinder"></i>
+<span>StreamingFlix | C# e xUnit</span>
+</div>
+<div class="conteudo-projeto">
+<h3>StreamingFlix — Testes com xUnit</h3>
+<p>
+Projeto acadêmico desenvolvido em C# e .NET,
+com implementação de regras de negócio para
+classificação de planos de streaming.
+Utilizei testes unitários com xUnit para
+validar o comportamento das funcionalidades
+e contribuir para a qualidade do software.
+                            </p>
+<ul class="tecnologias-projeto">
+<li>C#</li>
+<li>xUnit</li>
+<li>Testes Unitários</li>
+</ul>
+<a class="link-projeto" href="https://github.com/GabrielGobira/streaming-flix-xunit" rel="noopener noreferrer" target="_blank">
+                                Mais informações
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+</article>
+<article class="cartao-projeto revelar">
+<div class="imagem-projeto projeto-previsao">
+<i aria-hidden="true" class="fa-solid fa-brain"></i>
+<span>Fintech Bank | QA e Testes</span>
+</div>
+<div class="conteudo-projeto">
+<h3>Fintech Bank — Qualidade e Testes</h3>
+<p>
+Projeto acadêmico de sistema bancário desenvolvido
+em C# e .NET. Atuei como Dev 2 na área de
+Quality Assurance (QA), realizando testes
+automatizados com xUnit, identificando e
+corrigindo problemas. Ao final, foram executados
+12 testes com sucesso, contribuindo para a
+confiabilidade das funcionalidades.
+                            </p>
+<ul class="tecnologias-projeto">
+<li>C#</li>
+<li>.NET</li>
+<li>xUnit</li>
+<li>QA</li>
+<li>Testes Automatizados</li>
+</ul>
+<a class="link-projeto" href="https://github.com/anatanielmarcella/fintech-bank-xunit" rel="noopener noreferrer" target="_blank">
+                                Mais informações
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+</article>
+
+<!-- Projeto 4: TaskFlow -->
+<article class="cartao-projeto revelar">
+    <div class="imagem-projeto projeto-taskflow">
+        <span>TaskFlow | Gerenciamento de Tarefas</span>
+    </div>
+
+    <div class="conteudo-projeto">
+        <h3>TaskFlow — Sistema de Tarefas</h3>
+
+        <p>
+            Aplicação desenvolvida em C# e .NET para
+            gerenciamento de tarefas. Implementei
+            funcionalidades de cadastro, listagem,
+            busca por identificador e conclusão de
+            tarefas, utilizando programação orientada
+            a objetos e testes unitários.
+        </p>
+
+        <ul class="tecnologias-projeto">
+            <li>C#</li>
+            <li>.NET</li>
+            <li>POO</li>
+            <li>Testes Unitários</li>
+        </ul>
+
+        <a class="link-projeto"
+           href="https://github.com/GabrielGobira/taskflow-console"
+           rel="noopener noreferrer"
+           target="_blank">
+            Mais informações
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+</article>
+
+</div>
+</div>
+</section>
+<!-- Seção de contato -->
+<section class="secao contato" id="contato">
+<div class="container">
+<div class="titulo-secao revelar">
+<p class="etiqueta">Vamos conversar</p>
+<h2>Entre em <span>contato</span></h2>
+<p>
+                        Utilize os canais profissionais ou envie uma mensagem
+                        pelo formulário.
+                    </p>
+</div>
+<div class="grade-contato">
+<div class="informacoes-contato revelar">
+<h3>Contatos profissionais</h3>
+
+<p>
+    Estou em busca da minha primeira oportunidade
+    profissional na área de Tecnologia da Informação,
+    com interesse em desenvolvimento de software,
+    backend e qualidade de software (QA).
+    Estou aberto a oportunidades de estágio,
+    posições de entrada e colaboração em projetos.
+    Vamos conversar!
+</p>
+<div class="links-contato">
+<a href="https://github.com/GabrielGobira" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-brands fa-github"></i>
+<span>
+<strong>GitHub</strong>
+                                    github.com/GabrielGobira
+                                </span>
+</a>
+<a href="https://www.linkedin.com/in/gabriel-gobira-de-souza-506080251/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-brands fa-linkedin"></i>
+<span>
+<strong>LinkedIn</strong>
+                                  https://www.linkedin.com/in/gabriel-gobira-de-souza-506080251/
+                                </span>
+</a>
+<a href="mailto:fuzioncodl@gmail.com">
+    <i aria-hidden="true" class="fa-solid fa-envelope"></i>
+    <span>
+        <strong>E-mail</strong>
+        <small>fuzioncodl@gmail.com</small>
+    </span>
+</a>
+
+<a
+    href="arquivos/Curriculo_Gabriel_Gobira.pdf"
+    class="item-contato"
+    download="Curriculo_Gabriel_Gobira.pdf"
+>
+    <i
+        aria-hidden="true"
+        class="fa-solid fa-file-pdf"
+    ></i>
+
+    <span>
+        <strong>Baixar currículo</strong>
+        <small>Currículo profissional em PDF</small>
+    </span>
+</a>
+
+</div>
+</div>
+<form class="formulario revelar" id="formulario-contato"><p>Ao enviar, seu aplicativo de e-mail será aberto para você revisar a mensagem.</p>
+<div class="grupo-formulario">
+<label for="nome">Nome</label>
+<input autocomplete="name" id="nome" name="nome" placeholder="Digite seu nome" required="" type="text"/>
+</div>
+<div class="grupo-formulario">
+<label for="email">E-mail</label>
+<input autocomplete="email" id="email" name="email" placeholder="Digite seu e-mail" required="" type="email"/>
+
+</div>
+<div class="grupo-formulario">
+<label for="assunto">Assunto</label>
+<input id="assunto" name="assunto" placeholder="Qual é o assunto?" required="" type="text"/>
+</div>
+<div class="grupo-formulario">
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required="" rows="5"></textarea>
+</div>
+<button class="botao botao-principal" type="submit">
+                            Enviar mensagem
+                            <i aria-hidden="true" class="fa-solid fa-paper-plane"></i>
+</button>
+<p aria-live="polite" class="mensagem-formulario" id="mensagem-formulario"></p>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="rodape">
+<div class="container conteudo-rodape">
+<p>
+                Desenvolvido por <strong> Gabriel Gobira </strong> com HTML, CSS e JavaScript.
+            </p>
+<p>
+                © <span id="ano-atual"></span> - Todos os direitos reservados.
+            </p>
+</div>
+</footer>
+<button aria-label="Voltar ao topo" class="voltar-topo" id="voltar-topo" type="button">
+<i aria-hidden="true" class="fa-solid fa-arrow-up"></i>
+</button>
+<script src="script.js"></script>
+</body>
+</html>
